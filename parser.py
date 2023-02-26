@@ -21,6 +21,6 @@ class Parser:
 
 if __name__ == '__main__':
     nlp = spacy.load("gp")
-    parser = Parser("TaylorFosterResume.pdf")
-    resume = parser.process()
-    print(resume)
+    resume_parser = Parser("TaylorFosterResume.pdf")
+    resume_parser = parser.process()
+    print(resume_parser)
