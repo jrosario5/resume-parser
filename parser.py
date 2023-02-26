@@ -20,7 +20,7 @@ class Parser:
         return (json.dumps(data))
 
 if __name__ == '__main__':
-    nlp = spacy.load("linkedinparser")
+    nlp = spacy.load("gp")
     parser = Parser("TaylorFosterResume.pdf")
     resume = parser.process()
     print(resume)
